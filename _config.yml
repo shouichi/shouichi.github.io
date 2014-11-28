@@ -1,0 +1,13 @@
+# Site settings
+title: (map fun everyday)
+email: shouichi.kamiya@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  技術の事を中心に興味がある事や考えている事を書きます。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://shouichi.github.io" # the base hostname & protocol for your site
+github_username:  shouichi
+
+# Build settings
+markdown: kramdown
+exclude: ["vendor"]
+excerpt_separator: ""
