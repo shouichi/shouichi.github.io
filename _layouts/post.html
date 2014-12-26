@@ -12,5 +12,7 @@ layout: default
     {{ content }}
   </article>
 
-  {% include disqus.html %}
+  {% if site.env != "development" %}
+    {% include disqus.html %}
+  {% endif %}
 </div>
