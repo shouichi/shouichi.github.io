@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /documents/
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Documents</h1>
+
+  <ul class="post-list">
+    {% for document in site.documents %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ document.url | prepend: site.baseurl }}">{{ document.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

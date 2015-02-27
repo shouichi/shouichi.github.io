@@ -7,6 +7,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://shouichi.github.io" # the base hostname & protocol for your site
 github_username:  shouichi
 timezone: Asia/Tokyo
+collections:
+  documents:
+    output: true
+    permalink: /documents/:path/
 
 # Build settings
 markdown: kramdown
