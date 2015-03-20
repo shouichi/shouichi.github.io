@@ -35,6 +35,7 @@ software!
 - [KACHINCOM](http://www.cachincom.com/) (Nginx, Rails, MySQL)
 - [QBナースオンライン](https://qbnurse-online.com/) (Apache, Django, MySQL, MongoDB)
 - [RISAS](http://risas.jp) (Apache, Zend, MySQL)
+- [Gガイド テレビ番組表](https://itunes.apple.com/jp/app/ggaido-terebi-fan-zu-biao/id543128311) (Objective-C)
 
 # Skills
 
@@ -80,6 +81,7 @@ software!
 - [KACHINCOM](http://www.cachincom.com/)（Nginx, Rails, MySQL、設計、実装）
 - [QBナースオンライン](https://qbnurse-online.com/)（Apache, Django, MySQL, MongoDB、改修）
 - [RISAS](http://risas.jp)（Apache, Zend, MySQL、改修）
+- [Gガイド テレビ番組表](https://itunes.apple.com/jp/app/ggaido-terebi-fan-zu-biao/id543128311)（Objective-C、iOSアプリ改修）
 
 # 技術
 
