@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://shouichi.github.io/sitemap.xml
