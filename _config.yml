@@ -12,6 +12,10 @@ collections:
   notes:
     output: true
 
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 exclude: ["vendor"]
