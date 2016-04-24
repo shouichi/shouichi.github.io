@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Unicorn Workers Timeout Because of Stalled Redis Connection
+date: 2015-02-08 10:17:10
 ---
 
-I encountered a strange problem of unicorn workers timeout this week. So I want
-to describe 1. how did I find the cause was Redis, 2. how did I fixed the
-problem in this post.
+We encountered a strange problem of unicorn workers timeout this week. So we
+want to describe 1. how did we find the cause was Redis, 2. how did we fixed
+the problem in this post.
 
 # Prelude
 
@@ -49,7 +50,7 @@ after_fork do |server, worker|
 end
 {% endhighlight %}
 
-Thanks to this patch I could get the stack trace.
+Thanks to this patch we could get the stack trace.
 
 {% highlight text %}
 /home/deploy/app/shared/bundle/ruby/2.0.0/gems/redis-3.0.4/lib/redis/connection/ruby.rb:238:in `call'
@@ -72,6 +73,23 @@ Thanks to this patch I could get the stack trace.
 /home/deploy/app/shared/bundle/ruby/2.0.0/gems/redis-3.0.4/lib/redis.rb:2077:in `block in multi'
 /home/deploy/app/shared/bundle/ruby/2.0.0/gems/redis-3.0.4/lib/redis.rb:36:in `block in synchronize'
 {% endhighlight %}
+
+From the log we figured out that the workers were blocked when they tried to
+write to the socket. That is because although Redis server disconnects clients
+being idle for more than 300 seconds, it seems ruby redis client gem doesn't
+handle the disconnection.
+
+{% highlight ruby %}
+def write(command)
+  @sock.write(build_command(command))
+end
+{% endhighlight %}
+
+# Fix
+
+We update redis config not disconnect clients by setting `timeout 0` in
+redis.conf for the time being. Of course fixing library itself is the ideal
+solution and we might blog about it in the future.
 
 # References
 
