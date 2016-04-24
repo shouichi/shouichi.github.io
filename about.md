@@ -14,6 +14,9 @@ software!
 
 # Work Experience
 
+- [Trillion Inc.](http://www.trlln.com) (Senior Software Engineer, Full-time)
+  - Development of game backend (Scala, DynamoDB).
+  - Development of bit coin exchange (Python, MySQL, Redis).
 - [Coiney Inc.](http://coiney.com/) (Senior Software Engineer, Full-time)
   - Development of core libraries and API for payment (Ruby).
   - Connecting to a bank API.
@@ -36,14 +39,16 @@ software!
 - [QBナースオンライン](https://qbnurse-online.com/) (Apache, Django, MySQL, MongoDB)
 - [RISAS](http://risas.jp) (Apache, Zend, MySQL)
 - [Gガイド テレビ番組表](https://itunes.apple.com/jp/app/ggaido-terebi-fan-zu-biao/id543128311) (Objective-C)
+- [ごみカレンダー Poimo](https://itunes.apple.com/jp/app/gomikarenda-poimo/id1019065960?mt=8) (Rails, MySQL, Finagle, Swift)
+- [Bulbousbow](https://itunes.apple.com/jp/app/bulbousbow/id1046458042) (Finagle, DynamoDB, Objective-C++)
 
 # Skills
 
-- Programming languages including Ruby, Go, Clojure, C, Java, Python, Javascript, Scheme, Ocaml and Prolog.
-- Extensive knowledge in Object-oriented programming.
+- Programming languages including Ruby, Java, Scala, Go, Clojure, C, Python, Javascript, Scheme, Ocaml and Prolog.
 - Extensive knowledge in Functional programming.
+- Extensive knowledge in Object-oriented programming.
 - System level programming on Linux.
-- Database including PostgreSQL, MySQL, Redis, MongoDB.
+- Database including PostgreSQL, MySQL, Redis, DynamoDB, Cloud Datastore, MongoDB.
 - Web frameworks including Rails, Sinatra, Django, Pyramid and Zend.
 - Test Driven Development.
 - Source code management tools including Git, Mercurial and Subversion.
@@ -52,7 +57,7 @@ software!
 - Contributed to open source projects and also open sourced many projects.
 
 
-# 日本語版
+# 日本語
 
 東京でソフトウェアエンジニアをしている神谷翔一と申します。自由な働き方を最も重視しています。
 
@@ -63,14 +68,17 @@ software!
 
 # 職歴
 
-- [株式会社リアルグローブ](http://realglobe.jp/)（アルバイト）
-  - 主に外部の仕事を受注（主にRails）
-  - 独自プライベートクラウドの開発（Java）
-- [株式会社スポットライト](http://spotlig.ht/)（アルバイト）
-  - 社内向けのデータ解析（Python）
-  - Androidアプリの改修（Java）
+- [Trillion Inc.](http://www.trlln.com)（ソフトウェアエンジニア）
+  - ゲームバックエンド（Scala, DynamoDB）
+  - ビットコイン取引所（Python, MySQL, Redis）
 - [コイニー株式会社](http://coiney.com/)（ソフトウェアエンジニア）
-  - 決済周辺の基本ライブラリとAPIの開発（Ruby）
+  - 決済周辺の基本ライブラリとAPIの開発（Ruby, Rails, MySQL, Redis）
+- [株式会社スポットライト](http://spotlig.ht/)（アルバイト）
+  - 社内向けのデータ解析（Python, PostgreSQL）
+  - Androidアプリの改修（Java）
+- [株式会社リアルグローブ](http://realglobe.jp/)（アルバイト）
+  - 主に外部の仕事を受注（Rails, MySQL）
+  - 独自プライベートクラウドの開発（Xen, Java, ActiveMQ）
 
 # その他仕事
 
@@ -82,14 +90,5 @@ software!
 - [QBナースオンライン](https://qbnurse-online.com/)（Apache, Django, MySQL, MongoDB、改修）
 - [RISAS](http://risas.jp)（Apache, Zend, MySQL、改修）
 - [Gガイド テレビ番組表](https://itunes.apple.com/jp/app/ggaido-terebi-fan-zu-biao/id543128311)（Objective-C、iOSアプリ改修）
-
-# 技術
-
-受注やアルバイトで色々やりましたが、下記の技術なら再び触りたいと思います。
-
-- Ruby
-- Go
-- Clojure
-- Java
-- PostgreSQL
-- Redis
+- [ごみカレンダー Poimo](https://itunes.apple.com/jp/app/gomikarenda-poimo/id1019065960?mt=8) (Rails, MySQL, Finagle, Swift)
+- [Bulbousbow](https://itunes.apple.com/jp/app/bulbousbow/id1046458042) (Finagle, DynamoDB, Objective-C++)
