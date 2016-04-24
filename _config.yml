@@ -9,9 +9,8 @@ github_username:  shouichi
 twitter_username:  shouichi_kamiya
 timezone: Asia/Tokyo
 collections:
-  documents:
+  notes:
     output: true
-    permalink: /documents/:path/
 
 # Build settings
 markdown: kramdown

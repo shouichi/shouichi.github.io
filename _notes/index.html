@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /notes/
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Notes</h1>
+
+  <ul class="post-list">
+    {% for note in site.notes %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ note.url | prepend: site.baseurl }}">{{ note.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
